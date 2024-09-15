@@ -1,0 +1,125 @@
+/* Add this to your ProjectList.css file */
+
+.projectForm {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.projectForm h2, .projectForm h3, .projectForm h4, .projectForm h5 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.projectForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.floorContainer, .taskContainer {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.taskContainer {
+  margin-left: 20px;
+}
+
+.projectForm button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.projectForm button:hover {
+  background-color: #0056b3;
+}
+
+.projectForm button:last-child {
+  background-color: #28a745;
+}
+
+.projectForm button:last-child:hover {
+  background-color: #218838;
+}
+
+.projectList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projectItem {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.projectDisplay h3, .projectEditForm h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.projectDisplay p {
+  margin: 5px 0;
+}
+
+.floorDisplay, .floorEdit {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.taskEdit {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f1f3f5;
+  border-radius: 4px;
+}
+
+.projectActions, .editActions {
+  margin-top: 15px;
+}
+
+.Projectbutton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Projectbutton:hover {
+  background-color: #0056b3;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+h4, h5 {
+  margin: 10px 0 5px 0;
+}

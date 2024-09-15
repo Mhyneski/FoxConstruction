@@ -1,0 +1,19 @@
+.name1 {
+  color: #a7b194;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+  margin-right: 2px;
+  margin-left: 5px;
+}
+
+.name2 {
+  color: #a7b194;
+}
+
+.topSIDE {
+  display: flex;
+  gap: 5px;
+  margin-left: 1em;
+}

@@ -1,0 +1,52 @@
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 80px;
+}
+
+.card {
+  width: 325px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.6s;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cardContent {
+  font-size: 20px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+}
+
+.topSIDE {
+  display: flex;
+  gap: 5px;
+  margin-left: 1em;
+}
+
+.NameBanner {
+  display: flex;
+  justify-content: center;
+}
+
+.NameBanner p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a7b194;
+  width: 1000px;
+  height: 100px;
+  text-align: center;
+  color: white;
+  border-radius: 40px;
+  font-size: 30px;
+}
